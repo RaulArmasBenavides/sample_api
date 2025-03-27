@@ -1,0 +1,8 @@
+[tool.poetry]
+name = "simple-api"
+version = "0.1.0"
+description = "API simple con FastAPI"
+authors = ["Tu Nombre <tu@email.com>"]
+
+# 👇 Esto es importante
+packages = [{ include = "simple_api" }]
